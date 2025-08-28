@@ -9,6 +9,7 @@ def two_sum(nums, target):
         if complement in seen:
             return [seen[complement], i]
 
+
         seen[num] = i
 
 
